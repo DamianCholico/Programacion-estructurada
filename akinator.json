@@ -1,0 +1,39 @@
+{
+  "pregunta": "¿Es una persona real?",
+  "si": {
+    "pregunta": "se dedica a la musica?",
+    "si": {
+      "pregunta": "se dedica a la musica tipo orquesta y mariachi?",
+      "si": {
+        "respuesta": "Luis Miguel"
+      },
+      "no": {
+        "respuesta": "Natanael cano"
+      }
+    },
+    "no": {
+      "pregunta": "se dedica a algun deporte?",
+      "si": {
+        "pregunta": "se dedica a las peleas de UFC?",
+        "si": {
+          "respuesta": "Connor Mcgregor"
+        },
+        "no": {
+          "respuesta": "Saul canelo alvarez"
+        }
+      },
+      "no": {
+        "respuesta": "Albert Einstein"
+      }
+    }
+  },
+  "no": {
+    "pregunta": "es un personaje de videojuegos?",
+    "si": {
+      "respuesta": "Arthur Morgan"
+    },
+    "no": {
+      "respuesta": "Harry Potter"
+    }
+  }
+}
